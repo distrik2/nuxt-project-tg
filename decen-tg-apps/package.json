@@ -5,15 +5,28 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "start": "nuxt start",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "browserslist": [
+    ">0.25%",
+    "not dead",
+    "last 2 versions",
+    "Firefox ESR",
+    "Chrome >= 92",
+    "Edge >= 92",
+    "Safari >= 14.1"
+  ],
   "dependencies": {
     "@supabase/supabase-js": "^2.45.5",
     "axios": "^1.7.7",
     "nuxt": "^3.13.0",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
   }
 }
